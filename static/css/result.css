@@ -1,0 +1,47 @@
+.risk_score
+{
+	height: 10rem;
+}
+.risk_score > img
+{
+	width: 5rem;
+}
+#form_div
+{
+	height: auto;
+}
+#form_div > div
+{
+	margin: .5rem 0;
+}
+#red_risk
+{
+	background-color: rgb(255,227,225);
+	border: solid 3px rgb(250,160,153);
+	color: rgb(255,107,96);
+}
+#medium_risk
+{
+	background-color: rgb(255,240,217);
+	border: solid 3px rgb(255,215,155);
+	color: rgb(255,187,86);
+}
+#low_risk
+{
+	background-color: rgb(228,243,229);
+	border: solid 3px rgb(128,198,131);
+	color: rgb(123,196,126);
+}
+.score_table
+{
+	width: 70%;
+	margin: 2rem auto;
+}
+.score_table tr td
+{
+	padding: 1rem 0;
+}
+.score_table tr td:nth-of-type(2)
+{
+	padding: 1rem 0 1rem 3rem;
+}
